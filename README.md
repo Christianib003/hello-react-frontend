@@ -31,7 +31,7 @@
 ## Description
 
 > This is a trial project for learning combining rails and react.
-[link to the backend](https://github.com/Christianib003/hello-rails-backend)
+[link to the backend](https://github.com/Christianib003/hello-rails-backend/tree/rails-app)
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
