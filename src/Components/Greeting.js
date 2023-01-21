@@ -5,7 +5,6 @@ import { fetchGreeting } from '../Redux/greetingSlice';
 export default function Greeting() {
   const dispatch = useDispatch();
   const { greeting } = useSelector((state) => state.greeting);
-
   React.useEffect(() => {
     dispatch(fetchGreeting());
   }, [dispatch]);
@@ -13,7 +12,7 @@ export default function Greeting() {
   return (
     <div>
       Greeting:
-      {greeting.greating}
+      {greeting.message}
     </div>
   );
 }
